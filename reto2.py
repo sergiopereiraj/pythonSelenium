@@ -3,7 +3,6 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import json
 
-
 url = 'https://www.sii.cl/servicios_online/1047-nomina_inst_financieras-1714.html'
 
 driver = webdriver.Chrome(executable_path='C:\dchrome\chromedriver.exe')
